@@ -74,18 +74,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d1x/proprietary/vendor/firmware/setfile_3p9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3p9.bin \
     vendor/samsung/d1x/proprietary/vendor/firmware/setfile_4ha.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4ha.bin \
     vendor/samsung/d1x/proprietary/vendor/firmware/sv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sv.bin \
-    vendor/samsung/d1x/proprietary/vendor/firmware/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/firmware/tee/00000000-0000-0000-0000-000000534b4d \
-    vendor/samsung/d1x/proprietary/vendor/firmware/tee/00000000-0000-0000-0000-0053545354ab:$(TARGET_COPY_OUT_VENDOR)/firmware/tee/00000000-0000-0000-0000-0053545354ab \
-    vendor/samsung/d1x/proprietary/vendor/firmware/tee/00000000-0000-0000-0000-46494e474502:$(TARGET_COPY_OUT_VENDOR)/firmware/tee/00000000-0000-0000-0000-46494e474502 \
-    vendor/samsung/d1x/proprietary/vendor/firmware/tee/00000000-0000-0000-0000-4b45594d5354:$(TARGET_COPY_OUT_VENDOR)/firmware/tee/00000000-0000-0000-0000-4b45594d5354 \
-    vendor/samsung/d1x/proprietary/vendor/firmware/tee/00000000-0000-0000-0000-505256544545:$(TARGET_COPY_OUT_VENDOR)/firmware/tee/00000000-0000-0000-0000-505256544545 \
-    vendor/samsung/d1x/proprietary/vendor/firmware/tee/00000000-0000-0000-0000-564c544b5052:$(TARGET_COPY_OUT_VENDOR)/firmware/tee/00000000-0000-0000-0000-564c544b5052 \
-    vendor/samsung/d1x/proprietary/vendor/firmware/tee/00000000-0000-0000-0000-657365447276:$(TARGET_COPY_OUT_VENDOR)/firmware/tee/00000000-0000-0000-0000-657365447276 \
-    vendor/samsung/d1x/proprietary/vendor/firmware/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/firmware/tee/driver/00000000-0000-0000-0000-53626f786476 \
     vendor/samsung/d1x/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
     vendor/samsung/d1x/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
     vendor/samsung/d1x/proprietary/vendor/firmware/txse3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse3.bin \
-    vendor/samsung/d1x/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
+    vendor/samsung/d1x/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
+    vendor/samsung/d1x/proprietary/vendor/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000534b4d \
+    vendor/samsung/d1x/proprietary/vendor/tee/00000000-0000-0000-0000-0053545354ab:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0053545354ab \
+    vendor/samsung/d1x/proprietary/vendor/tee/00000000-0000-0000-0000-46494e474502:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-46494e474502 \
+    vendor/samsung/d1x/proprietary/vendor/tee/00000000-0000-0000-0000-4b45594d5354:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4b45594d5354 \
+    vendor/samsung/d1x/proprietary/vendor/tee/00000000-0000-0000-0000-505256544545:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-505256544545 \
+    vendor/samsung/d1x/proprietary/vendor/tee/00000000-0000-0000-0000-564c544b5052:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-564c544b5052 \
+    vendor/samsung/d1x/proprietary/vendor/tee/00000000-0000-0000-0000-657365447276:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-657365447276 \
+    vendor/samsung/d1x/proprietary/vendor/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-53626f786476
 
 PRODUCT_PACKAGES += \
     gatekeeper.exynos9825 \
